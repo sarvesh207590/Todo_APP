@@ -69,7 +69,7 @@ function App() {
               <div className="todo-list">
                 {sortedTasks.length === 0 ? (
                   <div className="text-center text-muted py-4">
-                    <i className="bi bi-clipboard-x fs-1 d-block mb-2"></i>
+                    <i className="bi  fs-1 d-block mb-2"></i>
                     <p className="mb-0">No tasks yet. Add one above!</p>
                   </div>
                 ) : (
